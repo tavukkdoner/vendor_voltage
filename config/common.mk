@@ -264,6 +264,9 @@ PRODUCT_PRODUCT_PROPERTIES += \
 PRODUCT_COPY_FILES += \
     vendor/voltage/prebuilt/common/etc/sysconfig/preinstalled-packages-platform-voltage-product.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/preinstalled-packages-platform-voltage-product.xml
 
+
+DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += vendor/voltage/config/device_framework_matrix.xml
+
 # Versioning
 include vendor/voltage/config/version.mk
 
